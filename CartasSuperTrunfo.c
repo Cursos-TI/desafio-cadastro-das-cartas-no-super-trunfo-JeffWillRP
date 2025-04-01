@@ -28,13 +28,13 @@ int main() {
     printf("Informe os dados da primeira carta:\n");
 
     printf("Estado (A-H): ");
-    scanf(" %c", &estado1);
+    scanf(" %c", &estado1);//Adicionado espaço antes de %c para evitar que scanf leia caracteres em branco.
 
     printf("Código da Carta: ");
     scanf(" %s", codigo1);
 
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", nomecidade1);
+    scanf(" %[^\n]", nomecidade1);//lê strings completas, permitindo espaços no nome da cidade.
 
     printf("População: ");
     scanf(" %d", &populacao1);
