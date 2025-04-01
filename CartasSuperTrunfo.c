@@ -31,11 +31,11 @@ int main() {
     printf("Estado (A-H): ");
     scanf(" %c", &estado1);
 
-    printf("Código da Carta (ex: A01): ");
+    printf("Código da Carta: ");
     scanf(" %s", codigo1);
 
     printf("Nome da Cidade: ");
-    scanf(" %[^"]", nomecidade1);
+    scanf(" %[^\n]", nomecidade1);
 
     printf("População: ");
     scanf(" %d", &populacao1);
@@ -55,11 +55,11 @@ int main() {
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
 
-    printf("Código da Carta (ex: B02): ");
+    printf("Código da Carta: ");
     scanf(" %s", codigo2);
 
     printf("Nome da Cidade: ");
-    scanf(" %[^"]", nomecidade2);
+    scanf(" %[^\n]", nomecidade2);
 
     printf("População: ");
     scanf(" %d", &populacao2);
